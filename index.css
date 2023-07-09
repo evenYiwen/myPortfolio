@@ -169,7 +169,17 @@ header table {
     background-size:cover;
     background-repeat:no-repeat;
 }
-#work, #workA, #workB {
+#work{
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#workA {
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#workB {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
@@ -375,7 +385,13 @@ button:focus {
     #contact form textarea {
         width:90%;
     }
-    #work, #workA, #workB h1 {
+    #work h1 {
+        width:19%;
+    }
+    #workB h1 {
+        width:19%;
+    }
+	#workA h1 {
         width:19%;
     }
     #bio h1 {
